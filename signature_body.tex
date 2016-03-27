@@ -12,3 +12,7 @@ Eingewiesene/r:\\
 \q{Name}
 \q{Unterschrift}
 \end{Form}
+\leavevmode
+~\\
+Version: \immediate\write18{git log -1 | head -n 1 > output/\jobname.info }
+\input{output/\jobname.info}
