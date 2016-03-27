@@ -1,10 +1,14 @@
 # shackspace Werkstatt Einweisung
 ## Building
 
-`make` 
+- ``make``
+- (OR with docker: ``make docker``)
+
+
 ### Requirements
 
 - pdflatex
+- (OR docker)
 
 
 ## Contributing
